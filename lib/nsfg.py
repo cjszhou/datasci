@@ -36,8 +36,8 @@ def CleanFemResp(df):
     pass
 
 
-def ReadFemPreg(dct_file='2002FemPreg.dct',
-                dat_file='2002FemPreg.dat.gz'):
+def ReadFemPreg(dct_file='../data/2002FemPreg.dct',
+                dat_file='../data/2002FemPreg.dat.gz'):
     """Reads the NSFG pregnancy data.
 
     dct_file: string file name
